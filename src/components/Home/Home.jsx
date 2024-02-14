@@ -1,5 +1,5 @@
-import "./home.css";
 import { t } from "i18next";
+import "./home.css";
 function Home() {
   return (
     <div className="col">
