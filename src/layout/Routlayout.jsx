@@ -7,10 +7,12 @@ import { t } from "i18next";
 function Routlayout() {
   const [leng, setLeng] = useState("en");
   const { i18n } = useTranslation();
-  const [mode, setMode] = useState(false);
+  const [mode, setMode] = useState(true);
   const [loder, setShowLoder] = useState(false);
 
   useEffect(() => {
+    let data = JSON.parse(localStorage.getItem("mode"));
+    setMode(data);
     let lang = localStorage.getItem("lang");
     i18n.changeLanguage(lang);
     setLeng(lang);
@@ -28,6 +30,7 @@ function Routlayout() {
 
   function hendalClick() {
     mode ? setMode(false) : setMode(true);
+    localStorage.setItem("mode", JSON.stringify(mode));
   }
 
   return (
