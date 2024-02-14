@@ -4,8 +4,9 @@
       "about": "About me",
       "skills": "Skills",
       "project": "Project",
-      "contact": "Contact"
-          
+      "contact": "Contact",
+      "light": "Light mode",
+      "dark": "Dark mode"
     }
   },
   "ru": {
@@ -13,7 +14,9 @@
       "about": "Обо мне",
       "skills": "Навыки",
       "project": "проект",
-      "contact": "контакт"
+      "contact": "контакт",
+      "light": "Светлый режим",
+      "dark": "Темный режим"
     }
   },
   "uz": {
@@ -21,7 +24,9 @@
       "about": "Men haqimda",
       "skills": "Ko'nikmalar",
       "project": "Loihalarim",
-      "contact": "Bog'lanish"
+      "contact": "Bog'lanish",
+      "light": "Kunduzgi",
+      "dark": "Tungi"
     }
   }
 }

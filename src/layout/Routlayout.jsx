@@ -39,12 +39,12 @@ function Routlayout() {
               {mode ? (
                 <>
                   <img src="/Light.jpg" alt="light-icon" />
-                  <p>Light mode</p>
+                  <p>{t(light)}</p>
                 </>
               ) : (
                 <>
                   <img src="/Darck.jpg" alt="darck-icon" />
-                  <p>Dark mode</p>
+                  <p>{t(dark)}</p>
                 </>
               )}
             </div>
