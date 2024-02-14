@@ -1,6 +1,13 @@
 import { t } from "i18next";
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./home.css";
 function Home() {
+  const { i18n } = useTranslation();
+  useEffect(() => {
+    let lang = localStorage.getItem("lang");
+    i18n.changeLanguage(lang);
+  }, []);
   return (
     <div className="col">
       <div className="main-title">
