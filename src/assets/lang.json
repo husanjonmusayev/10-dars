@@ -6,7 +6,11 @@
       "project": "Project",
       "contact": "Contact",
       "light": "Light mode",
-      "dark": "Dark mode"
+      "dark": "Dark mode",
+      "about1": "Hi",
+      "about2": " I’m Charles,",
+      "about3": "Front-end Developer",
+      "title": " I design and develop experiences that make people’s lives simpler through Web and Mobile apps.I work with FIgma , HTML5, CSS3, JavaScript, React, ReactNative and Flutter"
     }
   },
   "ru": {
@@ -16,7 +20,11 @@
       "project": "проект",
       "contact": "контакт",
       "light": "Светлый режим",
-      "dark": "Темный режим"
+      "dark": "Темный режим",
+      "about1": "Привет",
+      "about2": "я Чарльз",
+      "about3": "Фронтенд-разработчик",
+      "title": "Я проектирую и разрабатываю опыт, который делает жизнь людей проще. через веб- и мобильные приложения. Работаю с Figma, HTML5, CSS3, JavaScript, React, ReactNative и Flutter"
     }
   },
   "uz": {
@@ -26,7 +34,11 @@
       "project": "Loihalarim",
       "contact": "Bog'lanish",
       "light": "Kunduzgi",
-      "dark": "Tungi"
+      "dark": "Tungi",
+      "about1": "Salom",
+      "about2": "Men Charlizman",
+      "about3": "men Front-end Developerman",
+      "title": "Men HTML5, CSS3, JavaScript, React, ReactNative va Flutter dasturlash tillarida Veb va mobil ilovalar  ishlab chiqaman"
     }
   }
 }
