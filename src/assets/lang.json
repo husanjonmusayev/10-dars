@@ -1,0 +1,27 @@
+{
+  "en": {
+    "translation": {
+      "about": "About me",
+      "skills": "Skills",
+      "project": "Project",
+      "contact": "Contact"
+          
+    }
+  },
+  "ru": {
+    "translation": {
+      "about": "Обо мне",
+      "skills": "Навыки",
+      "project": "проект",
+      "contact": "контакт"
+    }
+  },
+  "uz": {
+    "translation": {
+      "about": "Men haqimda",
+      "skills": "Ko'nikmalar",
+      "project": "Loihalarim",
+      "contact": "Bog'lanish"
+    }
+  }
+}
